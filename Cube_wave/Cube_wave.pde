@@ -26,7 +26,8 @@ void setup() {
       } else { // Noir
         d = dist((width/2+10)/sc, (height/2+10)/sc, i*25, j*12.5);
         a = map(d, 0, width, 0, TWO_PI*4); // "+10" => éviter que les 4 du centre bougent en synchro
-        c[i][j] = new cube(i*25, j*12.5, 20, 10, 0.2, a, #343434, #272727, #4D4D4D); // settings 1
+        //c[i][j] = new cube(i*25, j*12.5, 20, 10, 0.2, a, #343434, #272727, #4D4D4D); // settings 1
+        c[i][j] = new cube(i*25, j*12.5, 20, 10, 0.2, a, #B40000, #810000, #4D0000); // settings 1
         //c[i][j] = new cube(i*25, j*12.5, 10, 10, 0.2, -a, #343434, #272727, #4D4D4D); // settings 2 : juste "-a" et hauteur max
         //c[i][j] = new cube(i*25, j*12.5, 10, 10, -0.2, a, #343434, #272727, #4D4D4D); // settings 3 : incrément inversé (-0.2)
       }
@@ -56,7 +57,4 @@ void draw() {
    exit();
    }
    */
-   
-   
-   
 }
