@@ -1,4 +1,4 @@
-int sc = 2;
+int sc = 1;
 
 int nx = 24/sc + 1;
 int ny = 44/sc + 2;
